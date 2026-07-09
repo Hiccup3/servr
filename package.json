@@ -1,0 +1,19 @@
+{
+  "name": "mangabuff-code-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small Node.js server that stores collector source and serves an installable runner.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0"
+  }
+}
